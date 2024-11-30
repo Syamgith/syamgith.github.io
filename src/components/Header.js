@@ -11,8 +11,8 @@ const Header = () => {
       />
       <h1 className="mt-4 text-3xl font-bold text-white">Syamgith</h1>
       <p className="mt-2 text-gray-400">
-        Hi, I am a software engineer. Building digital cosmic universe using c#
-        and Js.
+        Hi, I am a software engineer. Building digital cosmic universe using
+        zeros and ones.
       </p>
       <SocialLinks />
     </div>
