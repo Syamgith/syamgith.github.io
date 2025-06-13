@@ -54,4 +54,6 @@ This project is a React web application configured to use Tailwind CSS for styli
 ---
 
 **Summary:**  
-This is a React + Tailwind CSS app, ready for local development and easy deployment to GitHub Pages. Just install dependencies, run locally with `npm start`, and deploy with `npm run deploy`.
+This is a React + Tailwind CSS app, ready for local development and easy deployment to GitHub Pages. Just install dependencies, run locally with `npm start`, build `npm run build` and deploy with `npm run deploy`.
+
+After deploying - Goto github pages and again set customdomain(syamgith.com) and save.
