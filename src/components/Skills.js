@@ -1,7 +1,17 @@
 import React from "react";
 
 const Skills = () => {
-  const skills = ["Python", "Flutter", "C sharp", "JavaScript", "SQL", "GIT"];
+  const skills = [
+    "Python",
+    "Flutter",
+    "C sharp",
+    "JavaScript",
+    "SQL",
+    "GIT",
+    "Docker",
+    "PostgreSQL",
+    "FastAPI",
+  ];
   return (
     <div className="p-4 bg-gray-900 rounded-lg">
       <h2 className="text-xl font-semibold text-white">Skills</h2>
