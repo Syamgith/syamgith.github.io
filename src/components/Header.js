@@ -19,7 +19,7 @@ const Header = () => {
           Syamgith
         </h1>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Hi, I am a software engineer. Building digital cosmic universe using
+          Hi. I am a software engineer. Building digital cosmic universe using
           zeros and ones.
         </p>
       </div>

@@ -54,41 +54,40 @@ const Contact = () => {
     <div className="group relative p-8 bg-gray-800/50 backdrop-blur-sm rounded-xl shadow-xl border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300">
       <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-0 group-hover:opacity-25 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative">
-        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-8">
+        <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-4">
           Reach Out to Me
         </h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="space-y-6">
-            <p className="text-gray-300 text-lg leading-relaxed">
-              I'm always open to discussing new projects, creative ideas, or
-              opportunities to be part of your visions.
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="space-y-4">
+            <p className="text-gray-300 text-sm leading-relaxed">
+              I'm open to discussing new projects and opportunities.
             </p>
-            <div className="space-y-4">
+            <div className="space-y-2">
               {contactInfo.map((info, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-4 p-4 bg-gray-700/30 rounded-lg border border-gray-600/30 hover:border-purple-500/30 transition-all duration-300"
+                  className="flex items-center gap-3 p-3 bg-gray-700/30 rounded-lg border border-gray-600/30 hover:border-purple-500/30 transition-all duration-300"
                 >
                   <div className="text-purple-400">{info.icon}</div>
                   <div>
                     <h3 className="text-sm font-semibold text-purple-300 uppercase tracking-wider">
                       {info.type}
                     </h3>
-                    <p className="text-gray-300 mt-1">{info.value}</p>
+                    <p className="text-gray-300 text-sm mt-1">{info.value}</p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative w-full max-w-md aspect-square">
+            <div className="relative w-full max-w-[200px] aspect-square">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-2xl transform rotate-3"></div>
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 rounded-2xl transform -rotate-3"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+                <div className="text-center space-y-2">
+                  <div className="w-12 h-12 mx-auto rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
                     <svg
-                      className="w-10 h-10 text-white"
+                      className="w-6 h-6 text-white"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -102,7 +101,7 @@ const Contact = () => {
                       />
                     </svg>
                   </div>
-                  <p className="text-gray-300 text-lg font-medium">
+                  <p className="text-gray-300 text-xs font-medium">
                     Let's Connect!
                   </p>
                 </div>

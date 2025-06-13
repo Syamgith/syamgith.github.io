@@ -7,18 +7,20 @@ const Experience = () => {
       role: "Software Engineer",
       period: "2022 August - 2025 March",
       location: "Bengaluru, India",
-      description: "Worked on building ABSuite in windows runtime team.",
-      achievements: ["", "", ""],
+      description:
+        "Contributed to the development and enhancement of ABSuite as part of the Windows Runtime team, focusing on delivering robust enterprise solutions and optimizing application performance.",
+      achievements: [],
       technologies: ["C#", ".Net", "SQL", "C++"],
     },
     {
       company: "Unisys",
       role: "Intern",
-      period: "2021 June - 2021 August",
+      period: "2021 May - 2022 August",
       location: "Bengaluru, India",
       description:
         "Worked on a CI/CD pipeline for a project called Release Platform with include a full stack web interface and a backend REST API. I have worked on developing a new algorithm and workflow for selecting the branch to build to avoid conflits.",
-      achievements: ["", "", ""],
+      // achievements: ["Team work", "", ""],
+      achievements: [],
       technologies: ["Django", "Python", "Angular", "CI/CD", "MySQL"],
     },
   ];
@@ -56,19 +58,23 @@ const Experience = () => {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-2 text-sm">
-                  <span className="text-purple-300 font-medium">
-                    Key Achievements:
-                  </span>
-                  <div className="flex flex-wrap gap-2">
-                    {exp.achievements.map((achievement, i) => (
-                      <span key={i} className="text-gray-300 group/item">
-                        {achievement}
-                        {i < exp.achievements.length - 1 && (
-                          <span className="text-purple-500/50 mx-1">•</span>
-                        )}
+                  {exp.achievements.length > 0 && (
+                    <>
+                      <span className="text-purple-300 font-medium">
+                        Key Achievements:
                       </span>
-                    ))}
-                  </div>
+                      <div className="flex flex-wrap gap-2">
+                        {exp.achievements.map((achievement, i) => (
+                          <span key={i} className="text-gray-300 group/item">
+                            {achievement}
+                            {i < exp.achievements.length - 1 && (
+                              <span className="text-purple-500/50 mx-1">•</span>
+                            )}
+                          </span>
+                        ))}
+                      </div>
+                    </>
+                  )}
                 </div>
 
                 <div className="flex flex-wrap gap-1.5">
