@@ -3,30 +3,23 @@ import React from "react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Company Name",
+      company: "Unisys",
       role: "Software Engineer",
-      period: "2022 - Present",
-      location: "Location",
-      description: "Detailed description of your role and responsibilities",
-      achievements: [
-        "Key achievement or responsibility 1",
-        "Key achievement or responsibility 2",
-        "Key achievement or responsibility 3",
-      ],
-      technologies: ["React", "Node.js", "TypeScript", "AWS"],
+      period: "2022 August - 2025 March",
+      location: "Bengaluru, India",
+      description: "Worked on building ABSuite in windows runtime team.",
+      achievements: ["", "", ""],
+      technologies: ["C#", ".Net", "SQL", "C++"],
     },
     {
-      company: "Previous Company",
-      role: "Junior Developer",
-      period: "2020 - 2022",
-      location: "Location",
-      description: "Description of your previous role",
-      achievements: [
-        "Notable achievement 1",
-        "Notable achievement 2",
-        "Notable achievement 3",
-      ],
-      technologies: ["JavaScript", "HTML", "CSS", "Python"],
+      company: "Unisys",
+      role: "Intern",
+      period: "2021 June - 2021 August",
+      location: "Bengaluru, India",
+      description:
+        "Worked on a CI/CD pipeline for a project called Release Platform with include a full stack web interface and a backend REST API. I have worked on developing a new algorithm and workflow for selecting the branch to build to avoid conflits.",
+      achievements: ["", "", ""],
+      technologies: ["Django", "Python", "Angular", "CI/CD", "MySQL"],
     },
   ];
 

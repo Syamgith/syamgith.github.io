@@ -36,7 +36,7 @@ const SocialLinks = () => {
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/syamgith",
+      url: "https://twitter.com/syamgit",
       icon: (
         <svg
           className="w-5 h-5"

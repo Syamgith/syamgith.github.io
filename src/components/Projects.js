@@ -3,42 +3,33 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
+      name: "Dreami Diary AI",
+      description:
+        "A diary app for your dreams with AI Interpreter. It's available in Playstore and web.",
+      githubLink: "https://github.com/Syamgith/ai-dream-journal",
+      webLink: "https://dreamidiary.com",
+      playStoreLink:
+        "https://play.google.com/store/apps/details?id=com.tinystars.dreamidiary",
+      technologies: ["FastAPI", "Flutter", "Python", "PostgreSQL", "Docker"],
+    },
+    {
       name: "Udesign",
       description: "An augmented reality app for home interior design",
       githubLink: "https://github.com/yourusername/udesign",
-      webLink: "https://udesign.app",
-      playStoreLink:
-        "https://play.google.com/store/apps/details?id=com.udesign",
-      technologies: ["React Native", "AR Kit", "Firebase", "Three.js"],
+      technologies: ["Flutter", "AR Kit", "Firebase"],
     },
     {
       name: "Shopping App",
       description: "E-commerce mobile application",
-      githubLink: "https://github.com/yourusername/shopping-app",
-      webLink: "https://shopping-app.com",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      githubLink: "https://github.com/Syamgith/shopping_app",
+
+      technologies: ["Flutter", "Firebase"],
     },
     {
       name: "News from Hacker News",
       description: "News aggregation platform",
-      githubLink: "https://github.com/yourusername/hacker-news",
-      webLink: "https://hacker-news-clone.com",
-      technologies: ["React", "Redux", "Hacker News API"],
-    },
-    {
-      name: "Photogram",
-      description: "A photo sharing App",
-      githubLink: "https://github.com/yourusername/photogram",
-      playStoreLink:
-        "https://play.google.com/store/apps/details?id=com.photogram",
-      technologies: ["Flutter", "Firebase", "Google Cloud Storage"],
-    },
-    {
-      name: "RealChat",
-      description: "Realtime chatting app",
-      githubLink: "https://github.com/yourusername/realchat",
-      webLink: "https://realchat.app",
-      technologies: ["React", "Socket.io", "Express", "MongoDB"],
+      githubLink: "https://github.com/Syamgith/news",
+      technologies: ["Flutter", "Firebase", "Hacker News API"],
     },
   ];
 

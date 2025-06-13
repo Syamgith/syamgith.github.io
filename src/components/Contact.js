@@ -4,7 +4,7 @@ const Contact = () => {
   const contactInfo = [
     {
       type: "Email",
-      value: "your.email@example.com",
+      value: "syamgith.dev@gmail.com",
       icon: (
         <svg
           className="w-6 h-6"
@@ -24,7 +24,7 @@ const Contact = () => {
     },
     {
       type: "Location",
-      value: "Your Location",
+      value: "Bengaluru, India",
       icon: (
         <svg
           className="w-6 h-6"

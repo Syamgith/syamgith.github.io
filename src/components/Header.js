@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <div className="text-center space-y-6">
       <div className="relative group">
-        <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+        <div></div>
+        {/* <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div> */}
         <img
           alt="Profile"
           className="relative w-32 h-32 mx-auto rounded-full border-4 border-gray-700 transition-transform duration-300 group-hover:scale-105"
