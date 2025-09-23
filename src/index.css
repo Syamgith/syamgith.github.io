@@ -7,3 +7,56 @@ body {
   color: #e5e5e5;
   font-family: Arial, sans-serif;
 }
+
+/* Global, accessible link styles */
+a {
+  color: #22d3ee; /* cyan-400 */
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1.5px;
+}
+
+a:hover {
+  color: #67e8f9; /* cyan-300 */
+}
+
+a:focus-visible {
+  outline: 2px solid #06b6d4; /* cyan-500 */
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Reusable link hero hover/focus effect */
+.link-hero {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+
+.link-hero::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 8px;
+  background: radial-gradient(
+    40% 40% at 50% 50%,
+    rgba(34, 211, 238, 0.35),
+    rgba(34, 211, 238, 0) 70%
+  );
+  opacity: 0;
+  filter: blur(8px);
+  transition: opacity 200ms ease, transform 200ms ease;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.link-hero:hover::after,
+.link-hero:focus-visible::after {
+  opacity: 1;
+}
+
+/* Subtle cyan text glow on hover/focus for all links */
+a:hover,
+a:focus-visible {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+}

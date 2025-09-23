@@ -44,4 +44,13 @@ This repository hosts a personal portfolio built with React (Create React App) a
 - [x] Delete legacy root `index.html` and `syamgith_files/`
 - [x] Remove Font Awesome CDN link from `public/index.html`
 
+### Accessibility and UX improvements
+
+- [x] Make links clearly distinguishable and accessible:
+  - Added global link styles in `src/index.css` (underline by default, improved underline aesthetics, visible focus ring)
+  - Switched link palette to cyan (`cyan-400/300/500`) to clearly differentiate from section highlight gradient (purple/pink)
+  - Enhanced icon-only links in `src/components/SocialLinks.js` with cyan focus ring and `title`
+  - Updated project action links in `src/components/Projects.js` to use cyan color, visible focus outlines, and `title`
+  - Added reusable `link-hero` hover/focus glow in `src/index.css` and applied to social and project links
+
 App should start with `npm start` and build with `npm run build` without changes to behavior.

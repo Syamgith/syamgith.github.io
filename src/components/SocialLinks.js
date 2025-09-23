@@ -58,11 +58,12 @@ const SocialLinks = () => {
           href={link.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative"
+          className="group relative focus:outline-none link-hero"
           aria-label={link.name}
+          title={link.name}
         >
-          <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur opacity-0 group-hover:opacity-25 transition duration-1000 group-hover:duration-200"></div>
-          <div className="relative p-2 text-gray-400 hover:text-white transition-colors duration-300">
+          <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-teal-400 rounded-full blur opacity-0 group-hover:opacity-25 group-focus:opacity-25 transition duration-700 group-hover:duration-200"></div>
+          <div className="relative p-2 text-gray-400 hover:text-cyan-300 transition-colors duration-300 rounded-full ring-0 ring-cyan-500/60 focus-visible:ring-2">
             {link.icon}
           </div>
         </a>

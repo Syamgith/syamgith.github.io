@@ -12,7 +12,7 @@ const Projects = () => {
             href="https://dreamidiary.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-400 underline hover:text-purple-300"
+            className="link-hero"
           >
             dreamidiary.com
           </a>
@@ -75,8 +75,9 @@ const Projects = () => {
                         href={project.githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-purple-400 hover:text-purple-300 transition-colors"
+                        className="text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-2 focus-visible:outline focus-visible:outline-cyan-500 rounded link-hero"
                         aria-label="GitHub Repository"
+                        title="GitHub Repository"
                       >
                         <svg
                           className="w-5 h-5"
@@ -93,8 +94,9 @@ const Projects = () => {
                         href={project.webLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-purple-400 hover:text-purple-300 transition-colors"
+                        className="text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-2 focus-visible:outline focus-visible:outline-cyan-500 rounded link-hero"
                         aria-label="Live Demo"
+                        title="Live Demo"
                       >
                         <svg
                           className="w-5 h-5"
@@ -111,6 +113,8 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Play Store"
+                        title="Get it on Google Play"
+                        className="link-hero"
                       >
                         <img
                           src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
