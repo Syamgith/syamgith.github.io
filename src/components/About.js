@@ -10,8 +10,7 @@ const About = () => {
         </h2>
         <div className="space-y-4">
           <p className="text-gray-300 leading-relaxed">
-            Software engineer with demonstrated experience in the coding and
-            software industry. My experience helps me to always adopt new
+            Software engineer. My experience helps me to always adopt new
             technologies and to solve complex issues.
           </p>
           {/* <div className="flex flex-wrap gap-2">
