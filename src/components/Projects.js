@@ -75,7 +75,7 @@ const Projects = () => {
                         href={project.githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-2 focus-visible:outline focus-visible:outline-cyan-500 rounded link-hero"
+                        className="inline-flex items-center justify-center p-1.5 text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-2 focus-visible:outline focus-visible:outline-cyan-500 rounded-full link-hero link-hero--round"
                         aria-label="GitHub Repository"
                         title="GitHub Repository"
                       >
@@ -94,7 +94,7 @@ const Projects = () => {
                         href={project.webLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-2 focus-visible:outline focus-visible:outline-cyan-500 rounded link-hero"
+                        className="inline-flex items-center justify-center p-1.5 text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-2 focus-visible:outline focus-visible:outline-cyan-500 rounded-full link-hero link-hero--round"
                         aria-label="Live Demo"
                         title="Live Demo"
                       >

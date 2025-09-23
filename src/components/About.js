@@ -14,7 +14,7 @@ const About = () => {
             software industry. My experience helps me to always adopt new
             technologies and to solve complex issues.
           </p>
-          <div className="flex flex-wrap gap-2">
+          {/* <div className="flex flex-wrap gap-2">
             <span className="px-3 py-1 bg-purple-600/20 text-purple-300 text-sm rounded-full border border-purple-500/20">
               Problem Solver
             </span>
@@ -24,7 +24,7 @@ const About = () => {
             <span className="px-3 py-1 bg-purple-600/20 text-purple-300 text-sm rounded-full border border-purple-500/20">
               Team Player
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

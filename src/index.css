@@ -31,20 +31,21 @@ a:focus-visible {
   position: relative;
   display: inline-block;
   z-index: 0;
+  isolation: isolate;
 }
 
 .link-hero::after {
   content: "";
   position: absolute;
-  inset: -2px;
-  border-radius: 8px;
+  inset: -4px;
+  /* border-radius: inherit; */
   background: radial-gradient(
     40% 40% at 50% 50%,
-    rgba(34, 211, 238, 0.35),
+    rgba(34, 211, 238, 0.6),
     rgba(34, 211, 238, 0) 70%
   );
   opacity: 0;
-  filter: blur(8px);
+  filter: blur(14px);
   transition: opacity 200ms ease, transform 200ms ease;
   pointer-events: none;
   z-index: -1;
@@ -58,5 +59,19 @@ a:focus-visible {
 /* Subtle cyan text glow on hover/focus for all links */
 a:hover,
 a:focus-visible {
-  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+  text-shadow: 0 0 12px rgba(34, 211, 238, 0.8),
+    0 0 24px rgba(34, 211, 238, 0.4);
+}
+
+/* Ensure visibility within cards by adding outer box-shadow on interaction */
+.link-hero:hover,
+.link-hero:focus-visible {
+  box-shadow: 0 0 0 6px rgba(34, 211, 238, 0.12),
+    0 0 24px rgba(34, 211, 238, 0.35);
+  /* border-radius: inherit; */
+}
+
+/* Round variant for icon buttons */
+.link-hero--round {
+  border-radius: 9999px;
 }
