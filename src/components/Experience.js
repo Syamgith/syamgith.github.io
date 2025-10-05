@@ -7,18 +7,16 @@ const Experience = () => {
       role: "Software Engineer",
       period: "2022 August - 2025 March",
       location: "Bengaluru, India",
-      description:
-        "Contributed to the development and enhancement of ABSuite as part of the Windows Runtime team, focusing on delivering robust enterprise solutions and optimizing application performance.",
+      description: "",
       achievements: [],
-      technologies: ["C#", ".Net", "SQL", "C++"],
+      technologies: ["Python", "C#", ".Net", "SQL", "C++"],
     },
     {
       company: "Unisys",
       role: "Intern",
       period: "2021 May - 2022 August",
       location: "Bengaluru, India",
-      description:
-        "Worked on a CI/CD pipeline for a project called Release Platform with include a full stack web interface and a backend REST API. I have worked on developing a new algorithm and workflow for selecting the branch to build to avoid conflits.",
+      description: "",
       // achievements: ["Team work", "", ""],
       achievements: [],
       technologies: ["Django", "Python", "Angular", "CI/CD", "MySQL"],
