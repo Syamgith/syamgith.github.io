@@ -31,19 +31,6 @@ const Projects = () => {
       githubLink: "https://github.com/yourusername/udesign",
       technologies: ["Flutter", "AR Kit", "Firebase"],
     },
-    {
-      name: "Shopping App",
-      description: "E-commerce mobile application",
-      githubLink: "https://github.com/Syamgith/shopping_app",
-
-      technologies: ["Flutter", "Firebase"],
-    },
-    {
-      name: "News from Hacker News",
-      description: "News aggregation platform",
-      githubLink: "https://github.com/Syamgith/news",
-      technologies: ["Flutter", "Firebase", "Hacker News API"],
-    },
   ];
 
   return (
