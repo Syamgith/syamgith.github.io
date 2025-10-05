@@ -9,7 +9,7 @@ const Skills = () => {
     { name: "JavaScript", category: "Frontend" },
     { name: "Dart", category: "Frontend" },
     { name: "Flutter", category: "Frontend" },
-    { name: "Git", category: "Tools" },
+    { name: "SQL", category: "Tools" },
     { name: "Docker", category: "Tools" },
     { name: "PostgreSQL", category: "Tools" },
   ];
@@ -21,7 +21,7 @@ const Skills = () => {
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-6">
           Skills
         </h2>
-        <div className="space-y-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {skills.map((skill, index) => (
             <div
               key={index}
